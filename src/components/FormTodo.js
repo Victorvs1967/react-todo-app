@@ -16,7 +16,8 @@ const FormTodo = ({ addTodo }) => {
                 <Form.Label>Add Todo</Form.Label>
                 <Form.Control
                     type="text"
-                    className="input mb-1" value={value}
+                    className="input mb-1 p-4"
+                    value={value}
                     onChange={event => setValue(event.target.value)} 
                     placeholder="Add new todo"
                 />
